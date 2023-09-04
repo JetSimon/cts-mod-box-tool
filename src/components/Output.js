@@ -9,7 +9,7 @@ function Output(props) {
     let [labelText, setLabelText] = useState(COPY);
 
     function copyToClipboard() {
-        navigator.clipboard.writeText(props.value);
+        window.navigator.clipboard.writeText(props.value);
         setLabelText(COPIED);
         setTimeout(() => setLabelText(COPY), 1000);
     }
