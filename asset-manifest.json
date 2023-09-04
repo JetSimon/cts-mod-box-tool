@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cts-mod-box-tool/static/css/main.6f3c4192.css",
+    "main.css": "/cts-mod-box-tool/static/css/main.fccb9afc.css",
     "main.js": "/cts-mod-box-tool/static/js/main.1d61ea61.js",
     "index.html": "/cts-mod-box-tool/index.html",
-    "main.6f3c4192.css.map": "/cts-mod-box-tool/static/css/main.6f3c4192.css.map",
+    "main.fccb9afc.css.map": "/cts-mod-box-tool/static/css/main.fccb9afc.css.map",
     "main.1d61ea61.js.map": "/cts-mod-box-tool/static/js/main.1d61ea61.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f3c4192.css",
+    "static/css/main.fccb9afc.css",
     "static/js/main.1d61ea61.js"
   ]
 }
