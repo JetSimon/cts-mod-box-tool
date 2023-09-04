@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f3c4192.css",
-    "main.js": "/static/js/main.313514ad.js",
-    "index.html": "/index.html",
-    "main.6f3c4192.css.map": "/static/css/main.6f3c4192.css.map",
-    "main.313514ad.js.map": "/static/js/main.313514ad.js.map"
+    "main.css": "/cts-mod-box-tool/static/css/main.6f3c4192.css",
+    "main.js": "/cts-mod-box-tool/static/js/main.313514ad.js",
+    "index.html": "/cts-mod-box-tool/index.html",
+    "main.6f3c4192.css.map": "/cts-mod-box-tool/static/css/main.6f3c4192.css.map",
+    "main.313514ad.js.map": "/cts-mod-box-tool/static/js/main.313514ad.js.map"
   },
   "entrypoints": [
     "static/css/main.6f3c4192.css",
