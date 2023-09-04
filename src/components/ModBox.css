@@ -64,6 +64,12 @@
     color: black;
 }
 
+@media only screen and (max-width: 600px) {
+  .community-grid-element {
+    margin-bottom: 32px;
+  }
+}
+
 .hover-button-holder {
   display: inline-flex;
   justify-content: center;

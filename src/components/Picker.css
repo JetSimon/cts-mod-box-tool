@@ -1,15 +1,80 @@
-.Picker {
+.Picker, .TextInput, .Output {
     background-color: white;
     border-radius: 10px;
     padding: 10px;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.2);
-    color: #211f1f;
+    color: #3d3d3d;
     display: flex;
     align-items: center;
     gap: 10px;
     font-weight: bold;
+    position: relative;
 }
 
-.Picker input {
-    display:none;
+.Output {
+    text-align: center;
+    width: 33%;
+    margin: auto;
+    margin-top: 3%;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Output {
+      width:75%;
+    }
+  }
+
+.Output label {
+    line-height: 3px;
+}
+
+.Output textarea {
+    width: 100%;
+    height: 15vh;
+}
+
+.Picker-color {
+    position: relative;
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    cursor: pointer;
+    transform-origin: center;
+    transition: transform .2s;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.Picker-color:hover {
+    transform: scale(1.1);
+    
+}
+
+.Picker-color input {
+    transform-origin: center;
+    opacity: 0;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.TextInput-icon {
+    position: absolute;
+    bottom: 13px;
+    left: 6px;
+    user-select: none;
+}
+
+.TextInput label {
+    margin-left: 32px;
+}
+
+.TextInput input {
+    width:58%;
 }
