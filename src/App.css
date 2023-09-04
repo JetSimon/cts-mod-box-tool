@@ -36,6 +36,10 @@ body {
   .App-header {
     font-size: x-large;
   }
+
+  .App-pickers {
+    width: 80%;
+  }
 }
 
 .App-pickers {

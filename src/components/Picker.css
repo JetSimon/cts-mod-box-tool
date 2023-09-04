@@ -25,6 +25,15 @@
     .Output {
       width:75%;
     }
+
+    .TextInput-icon {
+        bottom: 19px!important;
+        left:8px!important;
+    }
+
+    .TextInput input {
+        font-size: large!important;
+    }
   }
 
 .Output label {
@@ -66,15 +75,17 @@
 
 .TextInput-icon {
     position: absolute;
-    bottom: 13px;
+    bottom: 15px;
     left: 6px;
     user-select: none;
 }
 
 .TextInput label {
+    white-space: nowrap;
     margin-left: 32px;
 }
 
 .TextInput input {
-    width:58%;
+    width:90%;
+    font-size: x-large;
 }
