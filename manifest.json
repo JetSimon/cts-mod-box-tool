@@ -1,0 +1,8 @@
+{
+  "short_name": "CTS Mod Box Tool",
+  "name": "Jet's CTS Mod Box Tool",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
